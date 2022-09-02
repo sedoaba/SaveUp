@@ -1,0 +1,56 @@
+1662156542433	geckodriver	INFO	Listening on 127.0.0.1:57542
+1662156545430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofiledhp64B"
+1662156546085	Marionette	INFO	Marionette enabled
+1662156546092	Marionette	INFO	Listening on port 57558
+WebDriver BiDi listening on ws://localhost:57543
+Read port: 57558
+1662156546296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofiledhp64B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57543/devtools/browser/2fd564b0-c637-4d9b-8bf7-e7cbc4e94ace
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JRDtgcUl_7OUjJ4QO8bVbwNuRTRqDUxuSBYCwiPHS6U.js line 2 > eval line 1210 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662156562315	Marionette	INFO	Stopped listening on port 57558
+1662158036367	geckodriver	INFO	Listening on 127.0.0.1:58866
+1662158039374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofileQIj99D"
+1662158039885	Marionette	INFO	Marionette enabled
+1662158039893	Marionette	INFO	Listening on port 58879
+WebDriver BiDi listening on ws://localhost:58867
+Read port: 58879
+1662158040194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofileQIj99D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58867/devtools/browser/a4ba8f62-1808-46e8-ab41-f6b1f4ecb305
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+1662158087948	Marionette	INFO	Stopped listening on port 58879
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JRDtgcUl_7OUjJ4QO8bVbwNuRTRqDUxuSBYCwiPHS6U.js line 2 > eval line 501 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 16544, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662158107507	geckodriver	INFO	Listening on 127.0.0.1:64865
+1662158110508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64866" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofilekNv11e"
+1662158110907	Marionette	INFO	Marionette enabled
+1662158110912	Marionette	INFO	Listening on port 64880
+WebDriver BiDi listening on ws://localhost:64866
+Read port: 64880
+1662158111063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofilekNv11e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64866/devtools/browser/306390c0-5ec3-417b-863a-47a0ebec3bbf
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+1662158158893	Marionette	INFO	Stopped listening on port 64880
+1662158544509	geckodriver	INFO	Listening on 127.0.0.1:65219
+1662158547511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofile5wSU2u"
+1662158547893	Marionette	INFO	Marionette enabled
+1662158547902	Marionette	INFO	Listening on port 65232
+WebDriver BiDi listening on ws://localhost:65220
+Read port: 65232
+1662158548027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\27833\\AppData\\Local\\Temp\\rust_mozprofile5wSU2u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65220/devtools/browser/d06d7d84-799a-4ed6-864e-0ffa2b5ac3ad
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.shoprite.co.za/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js, line 13: ReferenceError: ASM is not defined
+1662158562087	Marionette	INFO	Stopped listening on port 65232
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JRDtgcUl_7OUjJ4QO8bVbwNuRTRqDUxuSBYCwiPHS6U.js line 2 > eval line 2615 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
