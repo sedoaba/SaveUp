@@ -1,4 +1,4 @@
-# SaveUp
+# Getting Started
 
 
 ## How to Use 
