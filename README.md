@@ -8,7 +8,7 @@
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/zubairehman/flutter-boilerplate-project.git
+https://github.com/sedoaba/SaveUp.git
 ```
 
 **Step 2:**
