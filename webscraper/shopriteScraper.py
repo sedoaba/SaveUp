@@ -9,7 +9,8 @@ from tokenize import Special
 from unittest import result
 from bs4 import BeautifulSoup
 from selenium import webdriver
-
+from selenium.webdriver.firefox.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 
 def get_url(search_term):
     template = 'https://www.shoprite.co.za/specials?q=%3AspecialsRelevance%3AallCategories%3A{}%3AbrowseAllStoresFacet%3AbrowseAllStoresFacet%3AbrowseAllStoresFacetOff%3AbrowseAllStoresFacetOff'
@@ -53,7 +54,10 @@ def extract_record(item):
     return result
 
 def main(search_term):
-    driver = webdriver.Firefox(executable_path='C:\\geckodriver-v0.27.0-win64\\geckodriver.exe')
+    #chrome_executable = Service(executable_path='C:\\geckodriver-v0.27.0-win64\\geckodriver.exe', log_path='NUL')
+    #driver = webdriver.Firefox(service=chrome_executable)
+    driver = webdriver.Firefox(service=Service(executable_path=GeckoDriverManager().install()))
+    #driver = webdriver.Firefox(executable_path='C:\\geckodriver-v0.27.0-win64\\geckodriver.exe')
 
     records = []
     url = get_url(search_term)
@@ -63,7 +67,7 @@ def main(search_term):
     pagecount = soup.find('p',{'class':'total-number-of-results pull-right'}).text.replace(' items','').strip().replace(',','')
     pagecount = round(int(pagecount) / 20)
 
-    for page in range(0,pagecount):
+    for page in range(0,1):
         driver.get(url.format(page))
         soup = BeautifulSoup(driver.page_source,'html.parser')
         results = soup.find_all('figure',{'class':'item-product__content'})
@@ -80,9 +84,10 @@ def main(search_term):
         writer = csv.writer(f)
         writer.writerows(jsonpickle.decode(dataJSON))
 
-    with open('shopritedata_'+search_term+'.json', 'w') as json_file:
-        json.dump(JSONData, json_file)
+    # with open('shopritedata_'+search_term+'.json', 'w') as json_file:
+    #     json.dump(JSONData, json_file)
 
+# main('chicken')
 # main('health_and_beauty')
 # main('household')
 # main('baby')
