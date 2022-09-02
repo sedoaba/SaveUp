@@ -16,4 +16,5 @@ https://github.com/sedoaba/SaveUp.git
 Go to project root and execute the following command in console to get the required dependencies: 
 
 ```
+cd saveup
 flutter pub get 
