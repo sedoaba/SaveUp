@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>379492292508-tj7vsh1fuj7gvoici1chmqirr7qn575m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.379492292508-tj7vsh1fuj7gvoici1chmqirr7qn575m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAoZcpAm08EHE0u0a13n7iXhGeu08VtmNw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>379492292508</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.saveup</string>
+	<key>PROJECT_ID</key>
+	<string>saveupapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>saveupapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:379492292508:ios:c73b32eaec1a396a70da59</string>
+</dict>
+</plist>
