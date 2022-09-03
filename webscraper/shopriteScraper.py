@@ -87,7 +87,7 @@ def main(search_term):
     # with open('shopritedata_'+search_term+'.json', 'w') as json_file:
     #     json.dump(JSONData, json_file)
 
-# main('chicken')
+main('chicken')
 # main('health_and_beauty')
 # main('household')
 # main('baby')
